@@ -77,33 +77,4 @@ npm run dev
 └── README.md           # Documentation (You are here!)
 ```
 
----
 
-## 📤 How to Push to GitHub
-
-To upload this project to your GitHub account, follow these commands in your terminal:
-
-1. **Initialize Git repository:**
-   ```bash
-   git init
-   ```
-2. **Add all files to stage (Notice that `node_modules` will be automatically ignored thanks to `.gitignore`):**
-   ```bash
-   git add .
-   ```
-3. **Commit the files:**
-   ```bash
-   git commit -m "Initial commit: MongoDB CRUD and Aggregations setup"
-   ```
-4. **Rename the default branch to `main`:**
-   ```bash
-   git branch -M main
-   ```
-5. **Add your GitHub remote repository link** (replace with your actual GitHub repo URL):
-   ```bash
-   git remote add origin https://github.com/YOUR_USERNAME/YOUR_REPOSITORY_NAME.git
-   ```
-6. **Push to GitHub:**
-   ```bash
-   git push -u origin main
-   ```
